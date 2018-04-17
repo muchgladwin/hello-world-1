@@ -5,13 +5,13 @@ public class DayInTheLife {
 		// This is where we describe a day in the life of someone.
     // We can run this in our IDE. The "main" method is just a special method that our programming language knows what to do with.
 		// 1. We should define our person first really.
-		
+		Person jb = new Person("Jarvis Blocker");
 		
 		// 2. We should make our person do some stuff.
 		
 		
 		// 3. We should output useful information about the events of the day.
-		System.out.println("Nothing useful yet."); // Java specific printing of a line to the "console"
+		System.out.println("The name of our first person is: " + jb.getName()); // Java specific printing of a line to the "console"
 	}
 
 }
