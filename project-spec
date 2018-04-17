@@ -1,0 +1,20 @@
+
+I'm going to propose a project that we can work on to build up some basics in practise.
+We will start simple and flesh this out as we go (this is agile programming...we don't actually know 100% what we are going to do yet, so we will make the basics work well and be adaptable).
+
+Summary:
+Describe a day in the life of a person.
+
+Who are we?
+A deity.
+
+Conditions of satisfaction:
+1. At the start of the day we need to describe our person.
+2. We need to be able to make the person do activities of our choice.
+3. At the end of the day we need to hear all about it.
+
+Things we can learn about:
+
+Variables
+Methods
+Objects
