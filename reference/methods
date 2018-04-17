@@ -1,0 +1,49 @@
+An introduction to a method:
+
+public static void doSomething()
+{
+    //This is a comment, it doesn't actually do anything.
+    int thisIsAVariableWithACamelCaseName = 0;
+}
+
+A method has two parts:
+
+1. Signature 
+            public static void doSomething()
+            
+This is information about how the method will interact with other code.
+We say in programming that you "call" a method from another part of the code.
+The signature has the following properties:
+ - doSomething - Name
+ - public - Access modifier (don't worry about this for now. public means accessible from anywhere)
+ - static - don't worry about this for now, it is very important so we will come to it quickly
+ - void   - return type - void means nothing, don't return anything back to the code that "called" the method.
+
+2. Body 
+            {
+                // This is a comment, it doesn't actually do anything. The double forward-slash marks a line as a comment.
+                int thisIsAVariableWithACamelCaseName = 0;
+            }
+            
+This is the code that the method will carry out when it is called.
+The body is always bordered by something - in Java (and most programming languages) this is curly braces {  }
+Anything outside the curly braces will not do anything, and cause you an error.
+Anything inside the curly braces will be run in order when the method runs.
+
+Some important things you can do with methods:
+
+1. You can pass information into them. You pass information in to the brackets at the end of the method signature.
+You can pass more than one thing, but you need to declare the type (i.e. String) and the name (i.e. input) of each.
+
+public static void doSomething(String input, String input2)
+{
+    System.out.println("This is some input: " + input);
+    System.out.println("This is some other input: " + input2);
+}
+
+2. You can get information out of them
+public static String getSomething()
+{
+    String output = "Hello!";
+    return "This is some output: " + output;
+}
