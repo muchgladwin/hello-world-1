@@ -1,0 +1,8 @@
+We are going to model our person as an object. Then we can create instances of a Person. 
+
+We are going to give the Person object some properties. I'm going to add the first one, which is going to be name.
+I want you to suggest two properties that any person would have and add them to this list.
+
+Here is a list of properties we are going to consider giving person:
+
+ - Name
