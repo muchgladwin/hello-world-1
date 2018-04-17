@@ -1,0 +1,24 @@
+Variables are what we call bits of information that we make, use, pass around the code, store data in, etc.
+
+A variable has three main properties:
+1. Type - This describes the kind of data that is held by the variable.
+2. Name - This is how we refer to the variable
+3. Value - This is the value of the data that is held by the variable.
+
+We create an instance of a variable by defining these three properties like so:
+
+Type Name = value
+int myNumber = 1;
+String yourString = "hello";
+
+In these examples, int and String are the types.
+int represents an integer number. String is an object that represents text.
+Other examples of types which you can look up are char, boolean, float, double.
+
+In the examples, myNumber and yourString are the names. You can call things whatever you want but there are some rules.
+You cannot call two things the same name if they are within the saem scope (we can discuss scope in more depth later).
+By convention, we name things in camel case - numberThatRepresentsHeight is a suitably terribly named variable that 
+demonstrates camel case. A better choice would simply be height.
+
+In the examples, the values are 1 and "hello". Some types can take raw input, such as int. 
+Some types such as String, require some boundaries. For a string, the boundaries are double quotes.
