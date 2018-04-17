@@ -1,0 +1,21 @@
+
+Overall plan (simple):
+
+1. Create an Object that represents a person. 
+This should be in a class called something like Person.java and introduces you to the idea of an object.
+
+2. Give the Person object some characteristics that are typically associated with a person.
+Also give the person object some methods that represent things that a person might do, or that might happen to a person.
+See "plan/Person".
+This introduces the idea of variable and types. Make sure to include a few different types, including primitives and String.
+
+3. In the main method, create an instance of a person. This introduces instantition of an object.
+We will instantiate a few people, probably one each so we can experiment.
+
+4. In the main method, call some non-static methods on person. Introduce the difference between non-static and static.
+
+5. In the main method, print out some information from the instances of person taht we created.
+
+6. Refactor the main method to introduce cleaner coding and comments, use of methods for organisation.
+
+7. Refactor the code to use an array of people. This introduces arrays.
