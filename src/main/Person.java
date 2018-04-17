@@ -6,7 +6,11 @@ public class Person {
 	// This is a "member variable" - a property for our Person.
 	// This is information private to the object. 
 	// If anyone wants this information, they must ask for it using the method "getName".
+	// This is a String, which is a special type which holds text. Very useful.
 	private String name;
+	
+	// An int is an integer number. This will be height in cm and we won't care about decimals for now.
+	private int height;
 	
 	// This is a constructor - we call this to create an "instance" of a person.
 	// But we don't set any details
