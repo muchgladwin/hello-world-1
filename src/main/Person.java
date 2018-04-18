@@ -35,4 +35,14 @@ public class Person {
 		this.name = name;
 	}
 	
+public Person(int height)
+{
+	this.setHeight(height);
+	
 }
+public int getHeight() {
+	return height;
+}
+	public void setHeight(int height) {
+		this.height = height;
+	}
