@@ -34,15 +34,17 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public Person(int height)
+	{
+		this.setHeight(height);
+	}
 	
-public Person(int height)
-{
-	this.setHeight(height);
-	
-}
-public int getHeight() {
-	return height;
-}
+	public int getHeight() {
+		return height;
+	}
+
 	public void setHeight(int height) {
 		this.height = height;
 	}
+}
