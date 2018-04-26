@@ -1,0 +1,40 @@
+Objects are a very important idea in programming.
+
+We have an example of an object in our project - Person.java.
+The purpose of an object is to model/represent something - in our case a person.
+
+The code in the Person.java file defines our representation of a person.
+This essentially holds our concept of a person & what characteristics they have, in an abstract fashion 
+In our example, every person has a property called "name". 
+
+Now, as your read the code in Person.java, you can see that we never specify what the name of our person is.
+This matches with real life - 
+Think of the concept of a person, it could be anyone, but they always have a name, a height, eye colour etc. 
+In programming, this is writing the object class (Person.java)
+
+Now think of an example of a real person, give them a name, give them a height, give them an eye colour.
+In programming this is creating an "instance" of our object.
+In our example we do this in the class DayInTheLife.java
+
+Person jb = new Person("Jarvis Blocker");
+
+To break this down,
+1. Person - this declares the "type" of our object. We only have one to choose from so far, but you can imagine when we introduce other concepts such as pets, cars, whatever that we always need to know what type we are using.
+2. jb     - this is the identifier of our new "instance". When we work with our object, we always use this bit of text. It can be anything you want, but you can't identify two instances by the same text (this is logical).
+3. =      - this shows that we are "setting" or "assigning" to our new object.
+4. new    - this is a keyword which tells Java we want to create a new instance of our object. (Ie we want to create a new person).
+5. Person() - this is a method on the person class. To see the code that we access with this text, look at Person.java, at the method public Person(String name)
+6. "Jarvis Blocker" - this is some input that we are poking into the method. Thus this value "Jarvis Blocker" gets passed into the code in PErson.java.
+7. ;       - This marks that we have finished with our current command. Think of this as the programming equivalent of a full stop.
+
+In programming jargon, this is called "instantiation" (creation of an object).
+The method in Person.java - public Person(String name) - is a special method called a "constructor".
+This is the code that is responsible for creating the new instance of our person object.
+
+In summary:
+
+- Person.java holds our abstract concept of a person (you can think of it as a template).
+- We can now create individual people objects (instances) anywhere in the code.
+- We can set all the properties on our individual object using methods.
+- We can get all the properties on our individual object using methods.
+- We can create as many people as we want, using the pattern shown above, giving them different identifiers (ie jb, myPerson, whateverYouWant)
